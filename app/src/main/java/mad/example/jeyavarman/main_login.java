@@ -10,7 +10,7 @@ import android.widget.Button;
 import java.util.Objects;
 
 public class main_login extends AppCompatActivity {
-private Button fb,gl,gml,phn;
+private Button fb,gl,gml,phn,skip;
 
 
 
@@ -39,6 +39,20 @@ private Button fb,gl,gml,phn;
            public void onClick(View v) {
                Intent intent = new Intent(main_login.this, google.class);
                startActivity(intent);
+
+
+
+                                  }
+                              }
+
+        );
+
+        skip = findViewById(R.id.skip1);
+        skip.setOnClickListener(new View.OnClickListener() {
+                                  @Override
+                                  public void onClick(View v) {
+                                      Intent intent = new Intent(main_login.this, home_page.class);
+                                      startActivity(intent);
 
 
 
