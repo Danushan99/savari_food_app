@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jeyavarman">
         <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
             android:name=".done"
             android:exported="true" />
         <activity
