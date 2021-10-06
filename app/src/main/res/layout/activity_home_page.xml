@@ -15,7 +15,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.121" />
+        app:layout_constraintVertical_bias="0.094" />
 
     <View
         android:id="@+id/view3"
@@ -26,15 +26,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
+        app:layout_constraintVertical_bias="0.367" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="224dp"
-        android:layout_height="50dp"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
         android:text="Hi,Jeyavarman"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="28dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,7 @@
     <TextView
         android:id="@+id/textView13"
         android:layout_width="348dp"
-        android:layout_height="55dp"
+        android:layout_height="32dp"
         android:text="Poombugar,4th croos street, batticaloa"
         android:textColor="@color/green"
         android:textSize="20dp"
@@ -55,18 +55,19 @@
         app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078"
+        app:layout_constraintVertical_bias="0.052"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="455dp"
         android:layout_height="209dp"
+        android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.185"
+        app:layout_constraintVertical_bias="0.134"
         app:srcCompat="@drawable/food" />
 
     <TextView
@@ -74,21 +75,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hottels,"
-        android:textColor="@color/green"
+        android:textColor="#F44336"
         android:textSize="23dp"
         android:textStyle="italic"
 
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.414" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/homecrd1"
-        android:layout_width="372dp"
+        android:id="@+id/homecrd22"
+        android:layout_width="339dp"
         android:layout_height="136dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
@@ -97,57 +98,59 @@
 
         android:foregroundGravity="top|center_horizontal"
 
+        app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.644"
-        tools:ignore="MissingConstraints" >
+        app:layout_constraintVertical_bias="0.823"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/imageView20"
-            android:layout_width="127dp"
+            android:layout_width="129dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/sunshine" />
+            app:srcCompat="@drawable/htl2" />
 
         <TextView
-            android:gravity="center"
             android:id="@+id/textView16"
-            android:layout_width="379dp"
-            android:layout_height="40dp"
+            android:layout_width="248dp"
+            android:layout_height="38dp"
+            android:gravity="center"
             android:text="SUN SHINE"
-            android:textAlignment="center"
+            android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="match_parent"
-            android:layout_height="112dp"
-            android:gravity="center"
-            android:text="Hottel"
+            android:layout_width="316dp"
+            android:layout_height="98dp"
 
-            android:textAlignment="center"
+            android:gravity="center"
+
+            android:text="Hottel and Backery"
+            android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/textView20"
-            android:layout_width="379dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="Hottel"
+            android:id="@+id/textView15"
+            android:layout_width="311dp"
+            android:layout_height="150dp"
 
-            android:textAlignment="center"
+            android:gravity="center|start"
+            android:text="3.5            50 min"
+            android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/homecrd2"
-        android:layout_width="372dp"
+        android:id="@+id/homecrd22"
+        android:layout_width="339dp"
         android:layout_height="136dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
@@ -156,54 +159,101 @@
 
         android:foregroundGravity="top|center_horizontal"
 
+        app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.924"
+        app:layout_constraintVertical_bias="0.552"
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/imageView21"
-            android:layout_width="127dp"
+            android:id="@+id/imageView2"
+            android:layout_width="129dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/sunshine" />
 
         <TextView
-            android:id="@+id/textView19"
-            android:layout_width="379dp"
-            android:layout_height="40dp"
+            android:id="@+id/textView1"
+            android:layout_width="248dp"
+            android:layout_height="38dp"
             android:gravity="center"
             android:text="SUN SHINE"
-            android:textAlignment="center"
+            android:textAlignment="viewEnd"
             android:textColor="@color/black"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            tools:ignore="RtlCompat" />
 
         <TextView
-            android:id="@+id/textView17"
-            android:layout_width="379dp"
+            android:id="@+id/textView"
+            android:layout_width="316dp"
             android:layout_height="98dp"
-            android:gravity="center"
-            android:text="Hottel"
 
-            android:textAlignment="center"
+            android:gravity="center"
+
+            android:text="Hottel and Backery"
+            android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/textView199"
-            android:layout_width="match_parent"
-            android:layout_height="112dp"
-            android:gravity="center"
-            android:text="Hottel"
+            android:id="@+id/textView1"
+            android:layout_width="311dp"
+            android:layout_height="150dp"
 
-            android:textAlignment="center"
+            android:gravity="center|start"
+            android:text="3.5            50 min"
+            android:textAlignment="viewEnd"
             android:textColor="@color/black"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            tools:ignore="RtlCompat" />
 
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/house2" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/search2" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/bill" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="63dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:srcCompat="@drawable/user" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
