@@ -213,46 +213,46 @@
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="63dp"
-        android:layout_height="64dp"
+        android:layout_width="58dp"
+        android:layout_height="59dp"
         android:layout_marginStart="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994"
-        app:srcCompat="@drawable/house2" />
+        app:layout_constraintVertical_bias="0.986"
+        app:srcCompat="@drawable/shop" />
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="63dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="136dp"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="128dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994"
+        app:layout_constraintVertical_bias="0.979"
         app:srcCompat="@drawable/search2" />
 
     <ImageView
         android:id="@+id/imageView25"
-        android:layout_width="63dp"
-        android:layout_height="64dp"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
         android:layout_marginStart="228dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994"
+        app:layout_constraintVertical_bias="0.985"
         app:srcCompat="@drawable/bill" />
 
     <ImageView
         android:id="@+id/imageView26"
-        android:layout_width="63dp"
-        android:layout_height="64dp"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
         android:layout_marginStart="316dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994"
+        app:layout_constraintVertical_bias="0.986"
         app:srcCompat="@drawable/user" />
 
 
