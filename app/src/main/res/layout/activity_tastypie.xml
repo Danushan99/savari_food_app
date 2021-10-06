@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tasty Pie"
-        android:textAppearance="bold"
+        android:textStyle="bold"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tasty Pie"
-        android:textAppearance="bold"
+        android:textStyle="bold"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,7 +120,8 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.285"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView34"
@@ -165,14 +166,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chiken Kottu"
-        android:textAppearance="bold"
+        android:textStyle="bold"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.355"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/button6"
@@ -187,7 +189,8 @@
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.405" />
+        app:layout_constraintVertical_bias="0.405"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView28"
@@ -195,7 +198,7 @@
         android:layout_height="wrap_content"
         android:text="LKR800.0"
         android:textSize="18sp"
-        android:textAppearance="bold"
+      android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -208,7 +211,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Promo Code"
-        android:textAppearance="bold"
+       android:textStyle="bold"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -248,7 +251,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Apply"
-        android:textAppearance="bold"
+        android:textStyle="bold"
         android:textColor="@color/green"
         android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -288,14 +291,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="30 min"
-        android:textAppearance="bold"
-        android:textSize="16sp"
+android:textStyle="bold"        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.71"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView37"
@@ -327,7 +330,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Card"
-        android:textAppearance="bold"
+        android:textStyle="bold"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -341,7 +344,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cash"
-        android:textAppearance="bold"
+        android:textStyle="bold"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
