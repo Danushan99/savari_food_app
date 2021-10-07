@@ -99,16 +99,14 @@
         app:layout_constraintVertical_bias="0.414" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/homecrd22"
+        android:id="@+id/tastpie"
         android:layout_width="339dp"
         android:layout_height="136dp"
         android:layout_rowWeight="1"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         android:layout_margin="10sp"
-
         android:foregroundGravity="top|center_horizontal"
-
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -160,7 +158,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/homecrd22"
+        android:id="@+id/sunshine1"
         android:layout_width="339dp"
         android:layout_height="136dp"
         android:layout_rowWeight="1"

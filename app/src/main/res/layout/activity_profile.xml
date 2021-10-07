@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:context=".home_page"
-        tools:layout_editor_absoluteY="-38dp">
+        tools:layout_editor_absoluteY="32dp">
 
         <TextView
             android:id="@+id/textView12"

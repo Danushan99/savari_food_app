@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Jeyavarman">
+
         <activity
-            android:name=".profile"
+            android:name=".Customer"
             android:exported="true" />
         <activity
             android:name=".done"

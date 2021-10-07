@@ -6,6 +6,61 @@
     android:layout_height="match_parent"
     tools:context=".Select_tastypie">
 
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="58dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986"
+        app:srcCompat="@drawable/user" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985"
+        app:srcCompat="@drawable/bill" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979"
+        app:srcCompat="@drawable/search2" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="58dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986"
+        app:srcCompat="@drawable/shop" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
+
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
@@ -157,7 +212,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tasty Pie"
-        android:textAppearance="bold"
+        android:textStyle="bold"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
