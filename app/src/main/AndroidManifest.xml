@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Jeyavarman">
-
+        <activity
+            android:name=".Order"
+            android:exported="true" />
+        <activity
+            android:name=".Select_tastypie"
+            android:exported="true" />
+        <activity
+            android:name=".Tastypie"
+            android:exported="true" />
         <activity
             android:name=".Customer"
             android:exported="true" />
