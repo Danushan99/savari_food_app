@@ -202,15 +202,15 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.468" />
 
     <Button
-        android:id="@+id/button19"
-        android:layout_width="104dp"
-        android:layout_height="58dp"
+        android:id="@+id/paybtn"
+        android:layout_width="118dp"
+        android:layout_height="64dp"
         android:backgroundTint="#03C617"
         android:text="Pay"
         app:cornerRadius="20dp"

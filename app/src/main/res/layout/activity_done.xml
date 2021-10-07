@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".done">
 
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="131dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#03C617"
+        android:text="Home"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="335dp"
@@ -29,4 +43,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.772" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

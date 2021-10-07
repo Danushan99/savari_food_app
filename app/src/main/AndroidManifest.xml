@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jeyavarman">
         <activity
+            android:name=".Payment"
+            android:exported="true" />
+        <activity
             android:name=".Order"
             android:exported="true" />
         <activity

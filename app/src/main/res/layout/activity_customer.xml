@@ -255,7 +255,7 @@
         app:srcCompat="@drawable/share_rounded_corner_with_border" />
 
     <TextView
-        android:id="@+id/textView38"
+        android:id="@+id/addfood"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ADD"
