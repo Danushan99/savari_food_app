@@ -260,17 +260,6 @@
         app:layout_constraintVertical_bias="0.822" />
 
     <ImageView
-        android:id="@+id/imageView37"
-        android:layout_width="19dp"
-        android:layout_height="19dp"
-        android:layout_marginBottom="148dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929"
-        app:srcCompat="@drawable/frame_12" />
-
-    <ImageView
         android:id="@+id/imageView36"
         android:layout_width="41dp"
         android:layout_height="32dp"

@@ -75,21 +75,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.159" />
 
+
     <Button
         android:id="@+id/button11"
         android:layout_width="190dp"
         android:layout_height="56dp"
-        android:text="Past"
-        android:textStyle="bold"
-        android:textSize="20sp"
         android:backgroundTint="#03C617"
+        android:text="Past"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintHorizontal_bias="0.977"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.158" />
-
 
     <ImageView
         android:id="@+id/imageView39"
