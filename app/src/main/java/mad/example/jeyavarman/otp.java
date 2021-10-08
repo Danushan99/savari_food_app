@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class otp extends AppCompatActivity {
 private Button otpnext;
@@ -19,6 +20,7 @@ private Button otpnext;
                                   @Override
                                   public void onClick(View v) {
                                       Intent intent = new Intent(otp.this, home_page.class);
+                                      Toast.makeText(getApplicationContext(),"Login Sucessful",Toast.LENGTH_SHORT).show();
                                       startActivity(intent);
 
                                   }

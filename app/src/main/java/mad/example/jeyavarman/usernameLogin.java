@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class usernameLogin extends AppCompatActivity {
     private Button fblogin1;
@@ -20,6 +21,7 @@ public class usernameLogin extends AppCompatActivity {
                                        @Override
                                        public void onClick(View v) {
                                            Intent intent = new Intent(usernameLogin.this, home_page.class);
+                                           Toast.makeText(getApplicationContext(),"Login Sucessful",Toast.LENGTH_SHORT).show();
                                            startActivity(intent);
 
                                        }

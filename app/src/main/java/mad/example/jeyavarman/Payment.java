@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Payment extends AppCompatActivity {
     private Button donebtn;
@@ -19,6 +20,7 @@ public class Payment extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(Payment.this,done.class);
+                Toast.makeText(getApplicationContext()," sucessfully orderd",Toast.LENGTH_LONG).show();
                 startActivity(intent);
 
             }
