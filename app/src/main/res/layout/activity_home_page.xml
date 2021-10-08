@@ -233,7 +233,7 @@
         app:srcCompat="@drawable/shop" />
 
     <ImageButton
-        android:id="@+id/imageView24"
+        android:id="@+id/serchbtn1"
         android:layout_width="82dp"
         android:layout_height="64dp"
         android:layout_marginStart="124dp"
@@ -245,10 +245,10 @@
         app:srcCompat="@drawable/search2" />
 
     <ImageButton
-        android:id="@+id/imageView25"
+        android:id="@+id/bill1"
         android:layout_width="81dp"
         android:layout_height="64dp"
-        android:layout_marginStart="220dp"
+        android:layout_marginStart="224dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

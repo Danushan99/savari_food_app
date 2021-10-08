@@ -16,7 +16,7 @@ public class home_page extends AppCompatActivity  implements View.OnClickListene
 {
 
     public CardView card1,card2;
-    public ImageButton ImageButton;
+    public ImageButton ImageButton,serchbtn,payment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,11 +30,27 @@ public class home_page extends AppCompatActivity  implements View.OnClickListene
             }
         });
 
+        serchbtn = (ImageButton) findViewById(R.id.serchbtn1);
+        serchbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent beach = new  Intent(home_page.this, Select_tastypie.class);
+                startActivity(beach);
+            }
+        });
+
+        payment = (ImageButton) findViewById(R.id.bill1);
+        payment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent beach = new  Intent(home_page.this, Order.class);
+                startActivity(beach);
+            }
+        });
+
 
         card1 = findViewById(R.id.tastpie);
         card1.setOnClickListener(this);
-
-
 
         card2 = findViewById(R.id.sunshine1);
         card2.setOnClickListener(this);
