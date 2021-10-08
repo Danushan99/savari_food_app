@@ -16,6 +16,8 @@ public class home_page extends AppCompatActivity  implements View.OnClickListene
     public CardView card1;
 
 
+
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,20 +27,20 @@ public class home_page extends AppCompatActivity  implements View.OnClickListene
 
 
 
-
-        imgprofile = findViewById(R.id.imgprofile);
-        imgprofile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(home_page.this, profile.class);
-                startActivity(intent);
-
-
-
-            }
-        }
-
-        );
+        imgprofile = findViewById(R.id.imgprofile1);
+        imgprofile.setOnClickListener(this);
+//                (new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(home_page.this, profile.class);
+//                startActivity(intent);
+//
+//
+//
+//            }
+//        }
+//
+//        );
     }
 
     @Override
@@ -48,6 +50,11 @@ public class home_page extends AppCompatActivity  implements View.OnClickListene
                 startActivity(new Intent(this, Customer.class));
                 Toast.makeText(getApplicationContext(),"clicked",Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.imgprofile1:
+                startActivity(new Intent(this, profile.class));
+                Intent intent = new Intent(home_page.this, profile.class);
+                break;
+
         }
     }
 

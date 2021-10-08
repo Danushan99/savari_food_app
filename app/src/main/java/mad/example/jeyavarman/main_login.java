@@ -25,7 +25,7 @@ private Button fb,gl,gml,phn,skip;
         fb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(main_login.this, facebook.class);
+                Intent intent = new Intent(main_login.this, usernameLogin.class);
                 startActivity(intent);
 
             }
@@ -81,7 +81,7 @@ private Button fb,gl,gml,phn,skip;
         phn.setOnClickListener(new View.OnClickListener() {
                                   @Override
                                   public void onClick(View v) {
-                                      Intent intent = new Intent(main_login.this, phone.class);
+                                      Intent intent = new Intent(main_login.this, otp.class);
                                       startActivity(intent);
 
 

@@ -49,12 +49,14 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="EMAIL"
-        android:textAlignment="center"
         android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="442dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -62,14 +64,17 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="PASSWORD"
-        android:textAlignment="center"
         android:inputType="textPassword"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="535dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/fbloginbtn"
         android:layout_width="103dp"
         android:layout_height="48dp"
         android:layout_marginStart="156dp"

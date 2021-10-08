@@ -257,7 +257,7 @@
         app:srcCompat="@drawable/bill" />
 
     <ImageButton
-        android:id="@+id/imgprofile"
+        android:id="@+id/imgprofile1"
         android:layout_width="86dp"
         android:layout_height="63dp"
         android:layout_marginStart="308dp"
