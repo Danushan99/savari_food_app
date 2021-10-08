@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,36 +12,34 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class home_page extends AppCompatActivity  implements View.OnClickListener {
-    public ImageButton imgprofile;
-    public CardView card1;
+public class home_page extends AppCompatActivity  implements View.OnClickListener
+{
 
-
-
-    @SuppressLint("WrongViewCast")
+    public CardView card1,card2;
+    public ImageButton ImageButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
+        ImageButton = (ImageButton) findViewById(R.id.imgprofile1);
+        ImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent beach = new  Intent(home_page.this, profile.class);
+                startActivity(beach);
+            }
+        });
+
+
         card1 = findViewById(R.id.tastpie);
         card1.setOnClickListener(this);
 
 
 
-        imgprofile = findViewById(R.id.imgprofile1);
-        imgprofile.setOnClickListener(this);
-//                (new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(home_page.this, profile.class);
-//                startActivity(intent);
-//
-//
-//
-//            }
-//        }
-//
-//        );
+        card2 = findViewById(R.id.sunshine1);
+        card2.setOnClickListener(this);
+
+
     }
 
     @Override
@@ -48,15 +47,16 @@ public class home_page extends AppCompatActivity  implements View.OnClickListene
         switch (view.getId()) {
             case R.id.tastpie:
                 startActivity(new Intent(this, Customer.class));
-                Toast.makeText(getApplicationContext(),"clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"choosed",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.imgprofile1:
-                startActivity(new Intent(this, profile.class));
-                Intent intent = new Intent(home_page.this, profile.class);
+            case R.id.sunshine1:
+                startActivity(new Intent(this, Customer.class));
                 break;
 
         }
     }
+
+
 
 
 }
